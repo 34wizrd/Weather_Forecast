@@ -125,8 +125,11 @@ Then moving to main function to get the weather forecast informations. This fucn
 ```
 
 Let start with element "api", it's seted URL with "end" is "http://api.openweathermap.org/data/2.5/forecast?", "q" stands for city, "units" stands for unit of temperature.
+
 Next, "fetch" is a method to request api to receive response( still not data we need) based on "Promise" method. Now when have response we convert it to .json file to use it to next function.
+
 Here, in the next function, i use for loop to go through 40 timestamps, the data.list[i].dt_txt has form "year-month-day XX:XX:XX" i want import the weather forecast at 6AM so "includes" used to check that.
+
 After that, all information of that day will be pushed as a classes to the "arr_weather" for storing.
 
 
