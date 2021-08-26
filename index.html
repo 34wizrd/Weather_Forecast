@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+
+    <!-- BOOTSTRAP 5 CSS LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- EXTERNAL CSS LINK-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid mt-5 mb-5">
+        <h1 class="text-center text-light">NEXT 5 DAYS WEATHER FORECAST <br>IN HANOI CAPITAL, VIET NAM</h1>
+    </div>
+
+    <!-- CURRENT WEATHER CARDS-->
+    <!-- <div class="container-fluid d-flex justify-content-evenly mb-5">
+        DAY 1
+        <div class="card col-4">
+            <div class="text-center mt-2">
+                <h2> Current day</h2>
+                <p class="date display-4 mb-0"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon d-flex justify-content-center">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- CONTAINER 5 WEATHER CARDS-->
+    <div class="container-fluid row-cols-5 d-flex justify-content-evenly mb-5 p-0">
+        <!-- DAY 1-->
+        <div class="card col-2">
+            <div class="text-center mt-2">
+              <p class="date0 mb-0"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon0 d-flex justify-content-center">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value0">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description0">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location0">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DAY 2-->
+        <div class="card col-2">
+            <div class="text-center mt-2">
+                <p class="date1 mb-0"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon1 d-flex justify-content-center">
+                    <img src="icons/unknown.png">
+                </div>
+                <div class="temperature-value1">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description1">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location1">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+          </div>
+
+        <!-- DAY 3-->
+        <div class="card col-2">
+            <div class="text-center mt-2">
+                <p class="date2 mb-0" id="date"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon2 d-flex justify-content-center">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value2">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description2">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location2">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+          </div>
+
+        <!-- DAY 4-->
+        <div class="card col-2">
+            <div class="text-center mt-2">
+                <p class="date3  mb-0"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon3 d-flex justify-content-center">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value3">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description3">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location3">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+          </div>
+
+        <!-- DAY 5-->
+        <div class="card col-2">
+            <div class="text-center mt-2">
+                <p class="date4 mb-0"> Date </p>
+            </div>
+            <div class="weather-container">
+                <div class="weather-icon4 d-flex justify-content-center">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value4">
+                    <p class="text-center">- °<span>C</span></p>
+                </div>
+                <div class="temperature-description4">
+                    <p class="text-center"> - </p>
+                </div>
+                <div class="location4">
+                    <p class="text-center">-</p>
+                </div>
+            </div>
+          </div>
+
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
