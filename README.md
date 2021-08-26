@@ -86,7 +86,11 @@ Firstly, i matched html elements to javascript elements by using document.queryS
     const locaElement0 = document.querySelector(".location0 p");
 ```
 
-The querySelector() allows to find the first element that matches one or more CSS selectors. So here, the selector is class .date0 and the element is <p class="date0 mb-0"> Date </p>. The same for another elements and another days.
+The querySelector() allows to find the first element that matches one or more CSS selectors. So here, the selector is class .date0 and the element is:
+```html
+<p class="date0 mb-0"> Date </p>
+```
+And the same for another elements and another days.
 
 Then moving to main function to get the weather forecast informations. This fucntion is used for requesting API, recieving repsonse and taking data from it to display in HTML.
 
